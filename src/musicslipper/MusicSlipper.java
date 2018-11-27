@@ -49,7 +49,7 @@ public abstract class MusicSlipper extends Sellable{
 	 */
 	
 	public void print() {
-		System.out.println(getName() + ", " + getSong() + ": " + getPrice());
+		System.out.println(getId() + ": " + getName() + ", " + getSong() + ": " + getPrice());
 	}
 	
 }

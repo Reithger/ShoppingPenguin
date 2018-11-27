@@ -18,10 +18,12 @@ class JUnitTest {
 		assertEquals(stor.addItemToStock("bad"), false);
 		assertEquals(stor.addItemToStock("m:b"), true);
 		assertNotEquals(stor.addItemToStock("m:z"), true);
+		stor.seeAvailability();
 		assertEquals(stor.makePurchase(1, "Canada"), true);
 		assertEquals(stor.makePurchase(1, "Canada"), false);
 		assertEquals(stor.makePurchase(0, "Austria"), false);
 		assertEquals(stor.makePurchase(0, "Australia"), true);
+		
 		
 		//Destination testing
 		Canada can = (Canada)DestinationFactory.getItemDestination("Canada");

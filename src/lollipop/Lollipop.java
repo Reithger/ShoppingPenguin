@@ -49,7 +49,7 @@ public abstract class Lollipop extends Sellable{
 	 */
 	
 	public void print() {
-		System.out.println(getName() + ", " + getFlavor() + ": " + getPrice());
+		System.out.println(getId() + ": " + getName() + ", " + getFlavor() + ": " + getPrice());
 	}
 	
 }
