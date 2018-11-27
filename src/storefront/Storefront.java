@@ -19,26 +19,31 @@ public class Storefront {
 		}
 	}
 	
-	public boolean makePurchase(int itemId) {
+	public boolean makePurchase(int itemId, String country) {
 		//When interact with customer, have class for them that can be deducted funds
 		//Assuming that they have the money...
 		for(int i = 0; i < stock.size(); i++) {
 			Sellable s = stock.get(i);
 			if(s.getId() == itemId) {
-				stock.remove(s);
-				pendingOrders.
-				add(s);
-				return true;
+				boolean shipped = DestinationFactory.addItemOrder(country, s);
+				if(shipped) {
+					stock.remove(s);
+					pendingOrders.add(s);
+					return true;
+				}
+				else
+					return false;
 			}
 		}
 		return false;
 	}
 	
-	public void addItemToStock(String itemIdentifier) {
+	public boolean addItemToStock(String itemIdentifier) {
 		Sellable s = ProductFactory.getItem(itemIdentifier);
 		if(s == null)
-			throw new IllegalArgumentException("Invalid item identity in input");
+			return false;
 		stock.add(s);
+		return true;
 	}
 
 	public void seePendingOrders() {

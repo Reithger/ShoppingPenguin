@@ -6,5 +6,6 @@ public class France extends Destination{
 	
 	public France() {
 		setCountryName(COUNTRY_NAME);
+		initializePendingOrders();
 	}
 }

@@ -6,5 +6,6 @@ public class Antarctica extends Destination{
 	
 	public Antarctica() {
 		setCountryName(COUNTRY_NAME);
+		initializePendingOrders();
 	}
 }

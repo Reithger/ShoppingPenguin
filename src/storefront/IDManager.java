@@ -3,14 +3,14 @@ package storefront;
 public class IDManager {
 
 	private static IDManager itself;
-	private int nextIdValue;
+	private static int nextIdValue;
 	
 	private IDManager() {
 		itself = this;
 		nextIdValue = 0;
 	}
 	
-	public int getNextId() {
+	public static int getNextId() {
 		return nextIdValue++;
 	}
 	

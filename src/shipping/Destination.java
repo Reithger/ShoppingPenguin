@@ -8,7 +8,7 @@ public abstract class Destination {
 	private ArrayList<Sellable> pendingOrders;
 	private String countryName;
 	
-	public void addShippingOder(Sellable sell) {
+	public void addShippingOrder(Sellable sell) {
 		pendingOrders.add(sell);
 	}
 	
@@ -36,6 +36,10 @@ public abstract class Destination {
 		for(Sellable s : pendingOrders) {
 			s.print();
 		}
+	}
+	
+	protected void initializePendingOrders() {
+		pendingOrders = new ArrayList<Sellable>();
 	}
 	
 }
