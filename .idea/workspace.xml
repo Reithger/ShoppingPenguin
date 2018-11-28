@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e789b96-9e8c-4c8f-9e49-437ee7d55ef4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/lollipop/Lollipop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lollipop/Lollipop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/musicslipper/MusicSlipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/musicslipper/MusicSlipper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storefront/Storefront.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storefront/Storefront.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e789b96-9e8c-4c8f-9e49-437ee7d55ef4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/storefront/Storefront.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="615">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -102,6 +98,24 @@
               <item name="ShoppingPenguin" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShoppingPenguin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lollipop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingPenguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingPenguin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="musicslipper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingPenguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingPenguin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shipping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShoppingPenguin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShoppingPenguin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="storefront" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -119,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543364512255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543364540484" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -145,23 +159,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543363311255</updated>
-      <workItem from="1543363312718" duration="985000" />
+      <workItem from="1543363312718" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="985000" />
+    <option name="totallyTimeSpent" value="1491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -353,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storefront/Storefront.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="615">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
