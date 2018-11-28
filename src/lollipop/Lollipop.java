@@ -16,15 +16,12 @@ public abstract class Lollipop extends Sellable{
 	
 	/** String object representing the flavor of this Lollipop object*/
 	private String flavor;
-	
-//---  Setter Methods   -----------------------------------------------------------------------
-	
+  
 	/**
 	 * Setter method that assigns the provided String object to be the new flavor of this Lollipop object.
 	 * 
 	 * @param in - String object representing the new flavor of this Lollipop object.
 	 */
-	
 	public void setFlavor(String in) {
 		flavor = in;
 	}

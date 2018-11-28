@@ -24,7 +24,7 @@ public abstract class MusicSlipper extends Sellable{
 	 * 
 	 * @param in - String object representing the new song of this MusicSlipper object.
 	 */
-	
+ 
 	public void setSong(String in) {
 		song = in;
 	}
