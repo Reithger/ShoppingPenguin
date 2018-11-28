@@ -6,7 +6,7 @@ import shipping.*;
 public class Storefront {
 
 	ArrayList<Sellable> stock;
-	ArrayList<Sellable> pendingOrders;
+	ArrayList<Sellable> spendingOrders;
 	
 	public Storefront() {
 		stock = new ArrayList<Sellable>();
@@ -26,8 +26,7 @@ public class Storefront {
 			Sellable s = stock.get(i);
 			if(s.getId() == itemId) {
 				stock.remove(s);
-				pendingOrders.
-				add(s);
+				pendingOrders.add(s);
 				return true;
 			}
 		}

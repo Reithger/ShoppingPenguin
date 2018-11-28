@@ -5,7 +5,7 @@ import storefront.Sellable;
 public abstract class Lollipop extends Sellable{
 	
 	private String flavor;
-	
+
 	public void setFlavor(String in) {
 		flavor = in;
 	}
